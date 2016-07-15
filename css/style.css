@@ -1,0 +1,238 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    color: #040707;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    background: #fafafa;
+    position: relative;
+    background: #eee;
+}
+th {
+    font-weight: bold;
+}
+#wrapper {
+    background: #eee;
+}
+#header-content, #nav, #page, #section-header-nav, #mm-content, #footer .footer-content, .site-search {
+    width: 1000px;
+    margin: 0 auto;
+    clear: both;
+}
+#page {
+    width: 985px;
+}
+
+#content {
+    margin-bottom: 20px;
+}
+
+#content-1 {
+    margin: 0 auto 20px;
+    overflow: visible;
+    position: relative;
+    z-index: 3;
+}
+
+p {
+    color: #040707;
+    line-height: 1.5;
+}
+
+.module {
+    font-size: 12px;
+    line-height: 1.35em;
+    overflow: hidden;
+    margin-bottom: 28px;
+    position: relative;
+    background-color: #fff;
+    width: 316px;
+}
+
+.module .module-header, .foxsports-mostrecent, .group-header, .keep-in-touch-shell h2.keep-in-touch-heading, #content .flag-thumbs .module a:hover {
+    border-color: #2a3490;
+}
+.homepage .group-header, .homepage .module-header {
+    background-color: #ededed;
+}
+.module .module-header {
+    border-width: 4px 0 0 0;
+    border-style: solid;
+}
+.module .module-border {
+    border-width: 0 1px;
+    border-style: solid;
+    border-color: #eee;
+    display: inline-block;
+    width: 314px;
+}
+.image-hover-module .module-content {
+    border-bottom: 1px solid #eee;
+}
+.module .module-content {
+    position: relative;
+}
+
+.module .module-header h3, .tabbed ul.tab-set li a, .group .group-header h2 {
+    padding: 17px;
+    font-size: 1.6em;
+    font-weight: bold;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #eee;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.module-content table {
+    font-size: 0.9em;
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.module-content table th, .module-content table td {
+    border: 1px solid #eee;
+    border-style: solid none;
+    padding: 2px 5px;
+    text-align: left;
+}
+
+.module-content table th {
+    border: 0;
+    white-space: nowrap;
+}
+
+body:before {
+    display: none;
+}
+body.foxsports.homepage #header {
+    top: 0 !important;
+    display: block;
+    position: static !important;
+}
+a {
+    text-decoration: underline;
+    color: #2a3490;
+}
+#content {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+#content h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 50px 0;
+}
+#content h3:not(.header) {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #eee;
+}
+#content h3:first-child {
+    margin-top: 0;
+}
+#content h4 {
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#content p {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+#content ul {
+    list-style: disc;
+    margin-left: 35px;
+}
+#content li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+#content ol {
+    list-style: decimal;
+    margin-left: 35px;
+}
+.instructions {
+    padding: 20px;
+    background: #fff;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.module {
+    float: left;
+    margin-right: 30px;
+}
+.image-hover-module .module-content {
+    border-bottom: 1px solid #eee;
+}
+
+.site-header {
+    background: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+.site-header img {
+    height: 30px;
+}
